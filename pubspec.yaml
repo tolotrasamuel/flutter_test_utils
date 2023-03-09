@@ -16,12 +16,16 @@ dependencies:
   flutter_utils:
     git:
         url: https://github.com/tolotrasamuel/flutter_utils
-#        ref: 968d1ed22aabf763ff52e1ed5df7a007809a4fd8
+        ref: 968d1ed22aabf763ff52e1ed5df7a007809a4fd8
 # I am going to always take the master branch because
 # A project depending on this will need to update this version
 # everytime flutter_utils changes
-
-
+#  UPDATE: nevermind, it does not work. it is worse.
+#Because every version of test_utils from git depends on flutter_utils from
+#  git https://github.com/tolotrasamuel/flutter_utils at HEAD and pdf_tool depends
+#  on flutter_utils from git https://github.com/tolotrasamuel/flutter_utils at
+#  968d1ed22aabf763ff52e1ed5df7a007809a4fd8, test_utils from git is forbidden.
+# I don't know why
 dev_dependencies:
   flutter_test:
     sdk: flutter
