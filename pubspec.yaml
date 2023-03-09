@@ -16,7 +16,12 @@ dependencies:
   flutter_utils:
     git:
         url: https://github.com/tolotrasamuel/flutter_utils
-        ref: 968d1ed22aabf763ff52e1ed5df7a007809a4fd8
+#        ref: 968d1ed22aabf763ff52e1ed5df7a007809a4fd8
+# I am going to always take the master branch because
+# A project depending on this will need to update this version
+# everytime flutter_utils changes
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
