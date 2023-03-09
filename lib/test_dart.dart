@@ -1,4 +1,4 @@
-import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_test/flutter_test.dart' as flutter_test;
 import 'package:flutter_utils/log_trace.dart';
 import 'package:meta/meta.dart';
 
@@ -7,13 +7,13 @@ void test(
   Object description,
   dynamic Function() body, {
   String? testOn,
-  Timeout? timeout,
+  flutter_test.Timeout? timeout,
   dynamic skip,
   dynamic tags,
   Map<String, dynamic>? onPlatform,
   int? retry,
 }) {
-  test(
+  flutter_test.test(
     description,
     () {
       return mainTraced(body);
