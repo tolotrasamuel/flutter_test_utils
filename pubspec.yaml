@@ -16,7 +16,7 @@ dependencies:
   flutter_utils:
     git:
         url: https://github.com/tolotrasamuel/flutter_utils
-        ref: 0f7c0600e447d8ac2bba64af5d2c7c0b1c537b8b
+        ref: 968d1ed22aabf763ff52e1ed5df7a007809a4fd8
 dev_dependencies:
   flutter_test:
     sdk: flutter
